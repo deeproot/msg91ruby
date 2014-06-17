@@ -1,0 +1,42 @@
+# Msg91ruby
+
+TODO: Write a gem description
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'msg91ruby'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install msg91ruby
+
+## Usage
+
+## To connect to Msg91 Api
+
+    require 'msg91ruby'
+    api = Msg91ruby::API.new(auth_key,senderid)
+    api.send(mobileno, message)
+
+eg: 
+
+    require 'msg91ruby'
+    api = Msg91ruby::API.new("2552515255255255252","113388")
+    api.send(1234567890, "Test Message")
+    api.send([1234567890,9012345678], "Test Message")
+
+
+
+## Contributing
+
+1. Fork it ( https://github.com/RajeshReddyM/msg91ruby/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
