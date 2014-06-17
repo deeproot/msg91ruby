@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Msg91ruby::VERSION
   spec.authors       = ["rajesh"]
   spec.email         = ["rajeshnecg@gmail.com"]
-  spec.summary       = %q{A Ruby gem  to connect with Msg91 Api }
+  spec.summary       = %q{A Ruby gem to connect with Msg91 Api to send messages}
   spec.description   = %q{Connects to Msg91 api to send messages}
-  spec.homepage      = "https://github.com/RajeshReddyM/msg91ruby"
+  spec.homepage      = "https://github.com/deeproot/msg91ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
