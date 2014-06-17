@@ -1,6 +1,6 @@
 # Msg91ruby
 
-TODO: Write a gem description
+A Ruby Gem to communicate with Msg91 Api to send Messages
 
 ## Installation
 
@@ -40,7 +40,7 @@ You can generate a Yaml file to store the Sms Settings required for your applica
 
 ## Contributing
 
-1. Fork it ( https://github.com/RajeshReddyM/msg91ruby/fork )
+1. Fork it ( https://github.com/deeproot/msg91ruby/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
