@@ -31,6 +31,11 @@ eg:
     api.send(1234567890, "Test Message")
     api.send([1234567890,9012345678], "Test Message")
 
+## SMS Settings
+
+You can generate a Yaml file to store the Sms Settings required for your application with following command
+
+    rails g msg91ruby:install
 
 
 ## Contributing
