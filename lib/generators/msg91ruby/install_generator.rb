@@ -17,7 +17,7 @@ module Msg91ruby
       def modify_gitignore
         append_to_file '.gitignore' do
           "\n"                                +
-          "config/settings/*api.yml\n"
+          "config/settings/*_settings.yml\n"
         end
       end
     end
