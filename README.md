@@ -22,14 +22,14 @@ Or install it yourself as:
 
     require 'msg91ruby'
     api = Msg91ruby::API.new(auth_key,senderid)
-    api.send(mobileno, message)
+    api.send(mobileno, message, route)
 
 eg: 
 
     require 'msg91ruby'
     api = Msg91ruby::API.new("2552515255255255252","113388")
-    api.send(1234567890, "Test Message")
-    api.send([1234567890,9012345678], "Test Message")
+    api.send(1234567890, "Test Message", 1)
+    api.send([1234567890,9012345678], "Test Message", 1)
 
 you can find your Auth-key here:  http://help.msg91.com/article/177-where-can-i-find-my-authentication-key
 
