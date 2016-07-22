@@ -8,9 +8,9 @@ module Msg91ruby
       @url = URL
     end
 
-    def send(mobilenos,msg)
+    def send(mobilenos,msg,route)
       mobile_nos = mobilenos.is_a?(Array) ? mobilenos.join(',') : mobilenos
-      params = {:authkey => auth_key, :mobiles => mobile_nos, :message => msg , :sender => senderid ,:route => 1, :response => "json"}
+      params = {:authkey => auth_key, :mobiles => mobile_nos, :message => msg , :sender => senderid ,:route => route, :response => "json"}
       uri = full_path('/api/sendhttp.php', params)
       response = Net::HTTP.get(uri)
     end
